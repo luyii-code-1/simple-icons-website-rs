@@ -13,5 +13,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           owner: simple-icons # fork 的上游仓库 user
-          head: master # fork 的上游仓库 branch
-          base: master # 本地仓库 branch
+          head: gh-page # fork 的上游仓库 branch
+          base: gh-page # 本地仓库 branch
